@@ -1,0 +1,44 @@
+.footer{
+    width:100%;
+    background: #B70808;
+    color:#fff;
+
+}
+.footer-head{
+    width:80%;
+    height:40px;
+    margin:0 auto;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.footer p{
+    text-align: center;
+    line-height: 40px;
+}
+.footer-box{
+    width:80%;
+    margin:20px auto;
+
+}
+.footer-box p{
+    text-align: center;
+    line-height: 20px;
+}
+.footer-box ul{
+    width:100%;
+    margin:10px auto;
+    display: inline-block;
+}
+.footer-box ul li{
+    width:16.66%;
+    float:left;
+}
+.footer-box ul li a{
+    line-height: 30px;
+    color:#fff;
+}
+.footer-box ul li a:hover{
+   text-decoration: none;
+}
+

@@ -1,0 +1,200 @@
+.hs{
+    margin: 0 5px;display: inline-block;
+    font-size: 10px;
+}
+.conb-t{
+    height: 50px;
+}
+.conbot{
+    width: 99%;
+    padding: 10px 20px 20px 42px;
+    margin-top: 0px;
+    background: white;
+    margin-right: 1%;
+}
+.conbot .in{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.contable table{
+    border:1px solid #c0c0c0;
+}
+.tablebianji{
+    color:#3686FF;
+    cursor: pointer;
+}
+.tabledel{
+    color: #FF7C7D;
+    cursor: pointer;
+}
+.xiangqing{
+    color:#3686FF;
+    cursor: pointer;
+}
+.conb-b{
+    margin-top: 20px;
+    position: relative;
+}
+.conb-b div{
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+.conb-b .c-b-fx{
+    width: 80px;
+    float: left;
+    margin-left: 0;
+}
+.c-b-sc{
+    width: 80px;
+    background: #E35B5B;
+    float: left;
+}
+.c-b-xz{
+    width: 80px;
+    background: #3686FF;
+    float: left;
+}
+.c-b-pages{
+    top:0;
+    right: 0;
+}
+/*新增车辆*/
+.addcx{
+    z-index:12;
+    width:520px;
+    height: auto;
+    background: #fff;
+    /*display: none;*/
+    position: absolute;
+    /*left:0;top:0;right:0;bottom:0;*/
+    top:10%;
+    left: 50%;
+    margin-left: -260px;
+    /*margin:auto auto;*/
+    box-shadow: 2px 2px 5px #434343;
+    padding-bottom: 15px;
+}
+.addcx-head{
+    background: #3686FF;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+.addcx-con{
+    padding:10px 100px;
+}
+.addcximg{
+    width: 100%;
+}
+.addcxtips{
+    color: #F05455;
+    height: 40px;
+    line-height: 40px;
+}
+.anhong{
+    color: #F05455;
+}
+.addcxinput .in{
+    width: 100%;
+}
+.addcxinput .inputs {
+    width: 100%;
+}
+.addcxinput .inputs input{
+    width: 180px;
+    margin-left: 30px;
+}
+.inputs span{
+    width: 50px;
+    font-size: 12px;
+    text-align: center;
+}
+.inputs select{
+    width: 180px;
+    margin-left: 28px;
+    height: 30px;
+}
+.anniuzu div{
+    width: 140px;
+    margin: 0 10px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.addqx{
+    border:1px solid #c0c0c0;
+    background: white;
+}
+.addxyb{
+    background: #3686FF;
+    color: white;
+}
+.gb{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    color: white;
+    font-size: 16px;
+}
+.addcx-jgsd{
+    padding:10px 95px;
+}
+.addsyb{
+    border:1px solid #c0c0c0;
+    background: white;
+}
+.addbc{
+    background: #3686FF;
+    color: white;
+}
+.addtips{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top:50%;margin-top: -50px;
+    left: 50%;margin-left: -100px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    background: #E35B5B;
+    border-radius: 4px;
+}
+.inputs{
+    width: 145px;
+}
+.addtipsbtn{
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background: white;
+    border-radius:4px ;
+    color: #101010;
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: inline-block;
+    line-height: 22px;
+}
+.jg  .inputs input {
+    width: 180px;
+    margin-left: 0px;
+}
+.inputs input{
+    width: 83px;
+}

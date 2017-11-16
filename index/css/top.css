@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'pingfang';
+    src: url('../fonts/PingFang%20.ttf');
+}
+body{
+    width:100%;
+    background:#fff;
+    background: url("../img/back-pic.png") no-repeat;
+    background-size: cover;
+    padding:0;margin:0;font-family: 'pingfang';
+}
+.clear{
+    clear:both;
+}
+ul,li,a,h1,h2,h3,h4,h5,h6{
+    list-style: none;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+}
+
+/*头部*/
+.head{
+    width:100%;
+    height:40px;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.l-head{
+    height:100%;
+    width:30%;
+    float:left;
+}
+.l-head span{
+    line-height: 40px;
+    color:#cf0006;
+    font-size: 14px;
+}
+.r-head{
+    width:30%;
+    height:100%;
+    float: right;
+    margin-right:50px;
+}
+.r-head li{
+    width:33.33%;
+    float:left;
+    line-height: 40px;
+    color:#ababab;
+    cursor: pointer;
+}
+.r-head li a{
+    color:#ababab;
+}
+.r-head li a:hover{
+   text-decoration: none;
+}
+.r-head li span.glyphicon{
+    margin-right:10px;
+    color:#B50606;
+}
+/*内容块*/
+.head-two{
+    width:100%;
+    height:150px;
+}
+.head-logo{
+    width:20%;
+    height:100%;
+    float:left;
+}
+.head-seach{
+    width:60%;
+    float:left;
+    margin-top: 57px;
+}
+.head-sm{
+    width:10%;
+    float:right;
+    margin-right:50px;
+}
+.head-logo-box{
+    width:40%;
+    height:150px;
+    float:left;
+    margin:auto 0;
+    margin-right:10%;
+}
+.logo-wy{
+    background: url("../img/home_logo1.png") no-repeat center;
+}
+.logn-qp{
+    background: url("../img/home_logo.png") no-repeat center;
+
+}
+.search-box{
+    width:60%;
+    height:36px;
+    border:1px solid red;
+    margin-left: 50px;
+    float:left;
+}
+.search-title{
+    width:80%;
+    height:100%;
+    float:left;
+}
+.search-but{
+    width:20%;
+    height:100%;
+    float:left;
+    text-align: center;
+    line-height: 36px;
+    background: #CB0101;
+    color:#fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.head-zc{
+    width:105px;
+    height:36px;
+    text-align: center;
+    line-height: 36px;
+    background: #CB0101;
+    color:#fff;
+    font-size: 14px;
+    font-weight: 800;
+    margin-left: 40px;
+    float:left;
+    cursor: pointer;
+}
+.sm-pic{
+    height:100px;
+    background: url("../img/home_code.jpg") no-repeat center;
+    margin-top: 20px;
+}
+.head-sm p {
+    text-align: center;
+    margin-top: 5px;
+}
+/*导航*/
+.nav{
+    width:100%;
+    height:35px;
+    background: #CB0101;
+    margin-bottom:20px;
+}
+.b-backc {
+    background: #75050B;
+}
+.nav li{
+    height: 35px;
+    width: 120px;
+    text-align: center;
+    line-height: 35px;
+    float: left;
+    font-size: 16px;
+}
+.nav li a{
+    width: 100%;
+    height: 100%;
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+}
+.nav li a:hover{
+    background: #75050B;
+}
+.red{
+    color:#FD3736
+}
+/*面包屑导航*/
+.mb-nav{
+    width:100%;
+    height:40px;
+    line-height: 30px;
+    border-bottom:1px dotted #000;
+}
+.mb-nav a{
+    color:#000;
+    text-decoration: none;
+}
+.mb-nav a:hover{
+    color:#000;
+    text-decoration: none;
+}
+
+.head-zc a{
+    color:#fff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+
+}
+.head-zc a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+/*头部*/
+.l-head span a{
+    color:#BE0403;
+    text-decoration: none;
+}
+.l-head span a:hover{
+    color:#BE0403;
+    text-decoration: none;
+}

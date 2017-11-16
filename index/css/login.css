@@ -1,0 +1,145 @@
+/*注册流程*/
+.tb{
+    width: 100%;
+    padding: 20px 0;
+}
+.xxkt{
+    height: 50px;
+    border-bottom: 1px solid #c0c0c0;
+}
+.xxkts{
+    width: 450px; margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+}
+.xxkts li{
+    width: 150px;
+    height: 50px;
+    float:left;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.xxkts-bor{
+    border-bottom:2px solid #DE1111;
+}
+.xxkts-bor1{
+    border-bottom:none;
+}
+.xxkboxs{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: none;
+}
+.box{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    margin:15px 0;
+    height: 30px;
+    line-height:30px;
+}
+.boxzi{
+    margin-right: 10px;
+    font-weight: 500;
+    display: block;
+    float: left;
+    width: 80px;
+    text-align: right;
+}
+.box input{
+    display: block;
+    float: left;
+    height: 30px;
+}
+.boxtips{
+    color: #ccc;
+    display: block;
+    float: left;
+}
+.boxtips1{
+    color: #101010;
+    display: block;
+    float: left;
+}
+.hqyzm{
+    width: 72px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #101010;
+    display: block;
+    float: left;
+}
+.btn-box{
+    width:100%;
+}
+.btn-next{
+    width:80px;
+    height:35px;
+    text-align: center;
+    line-height: 35px;
+    background: #B50507;
+    color:#fff;
+    margin:0 auto;
+    cursor: pointer;
+
+}
+
+.xxkboxs h2{
+    text-align: center;
+    margin:100px 0 20px;
+}
+.xxkboxs p{
+    text-align: center;
+    margin-nottom:20px;
+}
+.xxkboxs-btn{
+    width: 100%;
+    float:left;
+    margin-bottom:70px;
+}
+.back-btn{
+    width: 230px;
+    height:45px;
+    float:left;
+    background: #fff;
+    border:1px solid #A5A5A5;
+    margin:10px 5%;
+    text-align: center;
+    line-height: 45px;
+}
+.time-btn{
+    background: #B50507;
+    color:#fff;
+    bordr:none;
+}
+.back-btn.home-btn a{
+    color:#000;
+}
+.back-btn.home-btn a:hover{
+    color:#000;
+    text-decoration: none;
+}
+.xxktitle{
+    background: #DC1B1C;
+    color: white;
+    width: 90px;
+    text-align: center;
+}
+/*底部*/
+.footer{
+    width:100%;
+    background: #EBEBEB;
+    color:#000;
+    padding:20px 0;
+}
+.footer p{
+    line-height: 20px;
+}
+
+
+

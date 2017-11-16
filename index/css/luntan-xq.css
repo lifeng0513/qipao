@@ -1,0 +1,258 @@
+.luntan-head{
+    width:100%;
+}
+.search{
+    width:350px;
+    height:36px;
+    float:left;
+}
+.search-body{
+    width:80%;
+    float:left;
+}
+.sousuo{
+    width:20%;
+    height:36px;
+    text-align: center;
+    line-height: 36px;
+    color:#000;
+    float:left;
+    background: #fff;
+    cursor: pointer;
+}
+input.search-body {
+    height: 36px;
+    border:1px solid #e8e8e8;
+}
+.hot-search{
+    width:60%;
+    float:left;
+    margin-left:30px;
+    display: inline-block;
+}
+.hot-search li{
+    width: 14.28%;
+    line-height: 36px;
+    cursor: pointer;
+    float:left;
+}
+.hot-search li:hover{
+   color:#BE0403;
+}
+.lt-container{
+    width:90%;
+    margin-top:20px;
+}
+.lt-box{
+    width:100%;
+    height:60px;
+    border-bottom:1px solid #F1F1F1;
+    background: #F6F7FB;
+}
+.lt-left{
+    width:15%;
+    float:left;
+}
+.lt-right{
+    width:85%;
+    float:left;
+    padding-right:50px;
+}
+.ft-box{
+    width:80px;
+    height:36px;
+    margin:12px auto;
+    background: #F86263;
+    color:#fff;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 8px;
+
+}
+.buttdiv {
+    margin-top:18px;
+    float: right;
+}
+.last {
+    border: 1px solid #999;
+    width: 46px;
+    height: 25px;
+    line-height: 25px;
+    color: #999999;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+}
+.num {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #999;
+    display: inline-block;
+    line-height: 25px;
+    color: #165aa1;
+    font-size: 12px;
+    text-align: center;
+}
+.next {
+    border: 1px solid #999;
+    width: 46px;
+    height: 25px;
+    line-height: 25px;
+    color: #165aa1;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+}
+.di {
+    display: inline-block;
+    color: #333333;
+    font-size: 12px;
+    margin-left:30px;
+    border: 1px solid #999;
+}
+input.kuang{
+    width:25px;
+    margin:0 3px;
+    border:none;
+}
+.gong{
+    border: 1px solid #999;
+}
+.buttdiv p:hover{
+    background: #F86262;
+    color:#fff;
+    border:1px solid #DCDBDB;
+    cursor: pointer;
+}
+
+.lt-con{
+    width:100%;
+    margin-bottom: 30px;
+    background: #F2F2F2;
+}
+.lt-con-left{
+    width:20%;
+    float:left;
+    background: #F2F2F2;
+}
+.lt-pic{
+    height:60px;
+    background: url("../img/footer.png") no-repeat right;
+    margin-top: -4px;
+}
+.lt-head-pic{
+    width:150px;
+    height:150px;
+    margin:50px auto 20px;
+    border:5px solid #fff;
+    background: url("../img/fourm_head portrait1.jpg") no-repeat;
+    background-size: cover;
+}
+.lt-head-pic.lt-head-pic1{
+    background: url("../img/fourm_head portrait2.jpg") no-repeat;
+    background-size: cover;
+}
+.lt-con-left p{
+    text-align: center;
+    line-height: 20px;
+}
+.lt-con-right{
+    width:80%;
+    float:left;
+    background: #fff;
+    padding:20px 0 20px 20px;
+}
+
+.lt-send {
+    width:95%;
+    height:30px;
+    text-align: right;
+}
+.lt-hf{
+    cursor: pointer;
+}
+.send-box{
+    margin:100px auto 50px;
+}
+.pages{
+    width:100%;
+    float:right;
+}
+.lt-hf.lt-hf-send{
+    color:#F88E8F;
+    border:1px solid #CFCFCF;
+    background: #F2F2F2;
+    border-bottom: none;
+}
+.lt-send.lt-send-b{
+    position: relative;
+}
+.lt-send-body{
+    width:100%;
+    padding:20px 0 20px 20px;
+    border:1px solid #CFCFCF;
+    background: #F2F2F2;
+    position: absolute;
+    top:20px;
+    right:0;
+
+}
+.send-box-pic{
+    width:50px;
+    height:50px;
+    float:left;
+    border:3px solid #fff;
+    background: url("../img/fourm_head portrait1.jpg") no-repeat;
+    background-size: cover;
+}
+.lt-con-right.lt-con-right-send{
+    height:335px;
+}
+.send-con-box{
+    width:80%;
+    float:left;
+    text-align: left;
+    line-height: 50px;
+    margin-left:20px;
+}
+.lt-send-time{
+    width:100%;
+    float:left;
+    padding-right:30px;
+}
+.send-btn{
+    width: 80px;
+    height:35px;
+    background: #fff;
+    color:#000;
+    text-align: center;
+    line-height: 35px;
+    float:left;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.send-info{
+    width: 100%;
+    float:left;
+    margin:20px 0;
+}
+.send-info textarea{
+    width:100%;
+}
+.send-con-btn{
+    width:100%;
+    height:auto;
+    float:left;
+}
+.send-info-btn{
+    width:200px;
+    height:35px;
+    margin:0 auto;
+    background: #E00A0A;
+    color:#fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}

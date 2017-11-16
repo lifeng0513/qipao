@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>旗袍委员会</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/login.js"></script>
+</head>
+<body style="background: #fff;">
+<!--头部-->
+<div class="head" style="background:#F2F2F2;border-bottom: 1px solid #8c8c8c ">
+    <div class="container">
+        <div class="l-head">
+            <span> <a href="index.html">欢迎您登陆旗袍委员会网站!</a></span>
+        </div>
+        <ul class="r-head" style="width: 30%;">
+            <li style="width: 25%"><a href="javascript:;">请登录</a></li>
+            <li style="width: 25%"><a href="login.html">免费注册</a></li>
+            <li style="width: 25%"><a href="javascript:;"><span class="glyphicon glyphicon-shopping-cart"></span>购物车</a></li>
+            <li style="width: 25%"><a href="javascript:;"><span class="glyphicon glyphicon-user"></span>个人中心</a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+<!--内容块-->
+<div class="container">
+    <div class="tb">
+        <a href="index.html">
+            <img src="images/complete_logo1.png" alt=""width="70" style="margin: 10px;">
+            <img src="images/complete_logo.png" alt="" width="70" style="margin: 10px;margin-left: 50px;">
+        </a>
+    </div>
+    <!--注册流程-->
+    <div class="xxkt">
+        <ul class="xxkts">
+            <li class="po-ap xxkts-bor">设置账号和密码</li>
+            <li class="one-info">完善个人信息</li>
+            <li class="zc-succ">完成注册</li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+    <!--第一步-->
+    <div class="xxkboxs" style="display: block" id="yi">
+        <ul class="box">
+            <li>
+                <span class="boxzi">用户名</span>
+                <input type="text" style="width: 150px;margin-right: 20px;">
+                <span class="boxtips">推荐使用中文,4-20位字符,可以是数字,英文,下划线</span>
+            </li>
+            <li>
+                <span class="boxzi">设置密码</span>
+                <input type="password" style="width: 150px;margin-right: 20px;">
+                <span class="boxtips">可以是数字,英文,下划线</span>
+            </li>
+            <li>
+                <span class="boxzi">确认密码</span>
+                <input type="password" style="width: 150px;margin-right: 20px;">
+                <span class="boxtips">请输入和上边一样的密码</span>
+            </li>
+            <li>
+                <span class="boxzi">手机号</span>
+                <input type="tel" style="width: 150px;margin-right: 20px;">
+                <span class="boxtips">请填写正确的手机号</span>
+            </li>
+            <li>
+                <span class="boxzi">验证码</span>
+                <input type="text" style="width: 72px;margin-right: 8px;">
+                <span class="hqyzm">获取验证码</span>
+            </li>
+            <li style="padding-left: 110px;">
+                <input type="checkbox">
+                <span>我同意 <strong class="red">《xxx旗袍网站协议》</strong></span>
+            </li>
+        </ul>
+        <div class="btn-box">
+            <div class="btn-next" id="first">下一步</div>
+        </div>
+    </div>
+    <!--第二步-->
+   <div class="xxkboxs" id="er" >
+       <ul class="box">
+           <li class="xxktitle">基础信息</li>
+           <li>
+               <span class="boxzi">姓名</span>
+               <input type="text" style="width: 150px;margin-right: 20px;">
+           </li>
+           <li>
+               <span class="boxzi">性别</span>
+               <input type="radio" name="xb" style="display: inline;margin: 0 10px;">
+               <span class="boxtips1">男</span>
+               <input type="radio" name="xb" style="display: inline;margin: 0 10px;">
+               <span class="boxtips1">女</span>
+           </li>
+           <li>
+               <span class="boxzi">婚姻</span>
+               <input type="radio" name="xb" style="display: inline;margin: 0 10px;">
+               <span class="boxtips1">已婚</span>
+               <input type="radio" name="xb" style="display: inline;margin: 0 10px;">
+               <span class="boxtips1">未婚</span>
+           </li>
+           <li>
+               <span class="boxzi">出生年月</span>
+               <input type="date" style="width: 150px;margin-right: 20px;">
+           </li>
+           <li>
+               <span class="boxzi">民族</span>
+               <input type="text" style="width: 100px;margin-right: 20px;">
+           </li>
+           <li>
+               <span class="boxzi">身份证号</span>
+               <input type="text" style="width: 220px;margin-right: 20px;">
+           </li>
+           <li>
+               <span class="boxzi">上传图片</span>
+               <input type="file" style="width: 180px;margin-right: 20px;">
+           </li>
+           <div class="clear"></div>
+       </ul>
+       <ul class="box">
+           <li class="xxktitle">教育信息</li>
+           <li>
+               <span class="boxzi">毕业学校</span>
+               <input type="text" style="width: 220px;margin-right: 20px;">
+           </li>
+           <li>
+               <span class="boxzi">毕业时间</span>
+               <input type="date" style="width: 150px;margin-right: 20px;">
+           </li>
+           <li>
+               <span class="boxzi">学历</span>
+               <select name="" id="" style="width: 150px;margin-right: 20px;display: block;height: 30px;">
+                   <option value="1">高中</option>
+                   <option value="2">大专</option>
+                   <option value="3">本科</option>
+                   <option value="4">研究生</option>
+               </select>
+           </li>
+           <li>
+               <span class="boxzi">出生年月</span>
+               <input type="date" style="width: 150px;margin-right: 20px;">
+           </li>
+           <li>
+               <span class="boxzi">所学专业</span>
+               <input type="text" style="width: 220px;margin-right: 20px;">
+           </li>
+           <div class="clear"></div>
+       </ul>
+       <ul class="box">
+           <li class="xxktitle">工作信息</li>
+           <li>
+               <span class="boxzi">入职时间</span>
+               <input type="date" style="width: 180px;margin-right: 20px;">
+           </li>
+           <li>
+               <span class="boxzi">工作</span>
+               <select name=""  style="width: 150px;margin-right: 20px;display: block;height: 30px;">
+                   <option value="1">IT</option>
+                   <option value="2">会计</option>
+                   <option value="3">科研</option>
+                   <option value="4">工人</option>
+                   <option value="5">农民</option>
+               </select>
+           </li>
+           <li>
+               <span class="boxzi">工作地址</span>
+               <input type="text" style="width: 220px;margin-right: 20px;">
+           </li>
+           <li>
+               <span class="boxzi">薪资</span>
+               <input type="text" style="width: 100px;margin-right: 10px;">
+               <span class="boxtips1">元</span>
+           </li>
+           <div class="clear"></div>
+       </ul>
+       <ul class="box">
+           <li class="xxktitle">家庭信息</li>
+           <li>
+               <span class="boxzi">家庭住址</span>
+               <input type="text" style="width: 220px;margin-right: 20px;">
+           </li>
+           <li>
+               <span class="boxzi">详细住址</span>
+               <input type="text" style="width: 220px;margin-right: 20px;">
+           </li>
+
+           <li>
+               <span class="boxzi">家庭成员</span>
+               <select name=""  value="关系" style="width: 100px;margin-right: 20px;display: block;height: 30px;float: left">
+                   <option value="1">父亲</option>
+                   <option value="2">母亲</option>
+                   <option value="3">妹妹</option>
+                   <option value="4">哥哥</option>
+                   <option value="5">弟弟</option>
+                   <option value="6">姐姐</option>
+               </select>
+               <input type="text" style="width: 100px;margin-right: 10px;" placeholder="姓名">
+               <input type="text" style="width: 100px;margin-right: 10px;" placeholder="电话">
+           </li>
+           <div class="clear"></div>
+       </ul>
+       <ul class="box">
+           <li class="xxktitle">分会信息</li>
+           <li>
+               <span class="boxzi">所在地区</span>
+               <input type="text" style="width: 220px;margin-right: 20px;">
+           </li>
+           <li>
+               <span class="boxzi">上级分会</span>
+               <select name=""  value="" style="width: 100px;margin-right: 20px;display: block;height: 30px;float: left">
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+               </select>
+               <select name=""  value="" style="width: 100px;margin-right: 20px;display: block;height: 30px;float: left">
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+               </select>
+              </li>
+           <div class="clear"></div>
+       </ul>
+       <div class="btn-box">
+           <div class="btn-next" id="second">提交信息</div>
+       </div>
+   </div>
+    <!--第三步-->
+    <div class="xxkboxs" id="san">
+        <h2>恭喜您!账号注册成功!</h2>
+        <p>您可以用手机号作为账号登录</p>
+        <p>如果您忘记密码或出现密码被盗的迹象请及时找回密码或修改密码!</p>
+        <div class="xxkboxs-btn">
+            <div class="back-btn time-btn"><span class="count">0</span>秒后自动跳转到首页</div>
+            <div class="back-btn home-btn"><a href="index.html">直接进入首页</a></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<!--底部-->
+    <div class="footer">
+        <P>Copyright © 2016 Shan Xi Qi Pao You Xian Gong Si  </P>
+        <P>山西旗袍有限公司 版权所有</P>
+        <P>客服电话：400-850-8888 违法信息举报邮箱：shanxi@qipaoxiehui.com</P>
+    </div>
+</body>
+</html>

@@ -1,0 +1,299 @@
+/*瀛椾綋鍥捐〃*/
+/*@font-face {font-family: 'table';*/
+    /*src: url('../fonts/table.eot'); !* IE9*!*/
+    /*src: url('../fonts/table.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!*/
+    /*url('../fonts/table.woff') format('woff'), !* chrome銆乫irefox *!*/
+    /*url('../fonts/table.ttf') format('truetype'), !* chrome銆乫irefox銆乷pera銆丼afari, Android, iOS 4.2+*!*/
+    /*url('../fonts/table.svg#table') format('svg'); !* iOS 4.1- *!*/
+/*}*/
+.sort{
+    font-family: 'Glyphicons Halflings';
+    font-size:12px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+table{
+    width:100%;
+}
+table tr{
+    width:100%;
+    height:45px;
+    line-height: 45px;
+}
+tr td{
+    text-align: center;
+   	border-width:0;
+    padding:0;
+    margin: 0;
+    font-size:12px;
+}
+@media screen and (min-width:1918px){
+	tr td{
+		font-size:14px;
+	}
+}
+.sort{
+    color: #757575;
+    cursor: pointer;
+}
+.asc{
+    left: -6px;
+    position: relative;
+    top: 6px;
+}
+.desc{
+    left: 6px;
+    position: relative;
+    top:-2px;
+}
+.fx{
+    width: 80px;
+    text-align: center;
+}
+.white{
+    background-color: #fff;
+}
+.ccc{
+    background: #E6E6E6;
+}
+/*琛ㄦ牸涓壒娈婄殑鍒�*/
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+/*page*/
+.pagination{
+    margin:0!important;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+.bor{
+    padding-bottom: 50px;
+    position: relative;
+}
+.pagination a{
+    cursor: pointer;
+}
+.xz{
+    background-color: #EFEBEB!important;
+}
+/*input*/
+.inputs{
+    width: 205px;
+    line-height: 30px;
+    color:#828282;
+    float: left;
+    margin: 10px 20px 10px 0;
+}
+.inputs input{
+    width: 140px;
+    height: 30px;
+    padding: 3px 0;
+}
+.inputs span{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    font-size: 12px;
+}
+/*鎼滅储*/
+.sousuo{
+    width: 215px;
+    line-height: 30px;
+    color:#828282;
+    float: left;
+    margin: 10px 20px 10px 0;
+}
+.sousuo input{
+    width: 180px;
+    height: 30px;
+    padding: 3px 0;
+    display: block;
+    float: left;
+}
+.sousuo div{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background: #DA1334;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    margin-top: -1px;
+}
+/*新增或修改界面*/
+.addcx{
+    z-index:12;
+    width:520px;
+    height: auto;
+    background: #fff;
+    /*display: none;*/
+    position: absolute;
+    /*left:0;top:0;right:0;bottom:0;*/
+    top:10%;
+    left: 50%;
+    margin-left: -260px;
+    /*margin:auto auto;*/
+    box-shadow: 2px 2px 5px #434343;
+    padding-bottom: 15px;
+}
+.addcx-head{
+    background: #3686FF;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+.addcx-con{
+    padding:10px 100px;
+}
+.addcximg{
+    width: 100%;
+}
+.addcxtips{
+    color: #F05455;
+    height: 40px;
+    line-height: 40px;
+}
+.anhong{
+    color: #F05455;
+}
+.addcxinput .in{
+    width: 100%;
+}
+.addcxinput .inputs {
+    width: 100%;
+}
+.addcxinput .inputs input{
+    width: 180px;
+    margin-left: 30px;
+}
+.inputs span{
+    width: 100px;
+    font-size: 14px;
+}
+.inputs select{
+    width: 180px;
+    margin-left: 28px;
+    height: 30px;
+}
+.anniuzu div{
+    width: 140px;
+    margin: 0 10px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.addqx{
+    border:1px solid #c0c0c0;
+    background: white;
+}
+.addxyb{
+    background: #3686FF;
+    color: white;
+}
+.gb{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.addcx-jgsd{
+    padding:10px 95px;
+}
+.addsyb{
+    border:1px solid #c0c0c0;
+    background: white;
+}
+.addbc{
+    background: #3686FF;
+    color: white;
+}
+.addtips{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top:50%;margin-top: -50px;
+    left: 50%;margin-left: -100px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    background: #E35B5B;
+    border-radius: 4px;
+}
+.inputs{
+    width: 245px;
+}
+.addzi{
+	height:30px;
+	display:block;
+	margin-bottom:10px;
+}
+.addtipsbtn{
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background: white;
+    border-radius:4px ;
+    color: #101010;
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: inline-block;
+    line-height: 22px;
+}
+.jg  .inputs input {
+    width: 180px;
+    margin-left: 0px;
+}
+
+/**/
+
+.qx-sel{width:100%;height:auto;display:inline-block;}
+.qx-sel li{width:100%;height:30px;line-height: 37px;cursor: pointer;}
+.qx-sel li input{width:15px;height: 15px;border:1px solid #000;}
+span.qx-sel-name{font-size: 14px;}
+.qx-child{
+	overflow:hidden;
+	padding-left:30px;
+	display:none;
+}
+.hasc{
+	color:#0075F1;
+}
+tbody td[name=edit]{
+	cursor:pointer;
+	color:blue;
+}
+tbody td[name=del]{
+	cursor:pointer;
+	color:red;
+}
+.gb{
+	top:0!important;
+	right:3px!important;
+	font-size:24px!important;
+	z-index:1;
+}
